@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "plato-papers"
+version = "0.1.0"
+description = "Research paper management — citation tracking, bibliography, search, knowledge graph"
+requires-python = ">=3.10"
+
+[tool.setuptools.packages.find]
+where = ["src"]
